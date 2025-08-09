@@ -1,10 +1,13 @@
 Eres un experto en desarrollo de software y control de versiones con Git.
-Quiero que generes un mensaje de commit completo y profesional en formato Conventional Commits, basado en la siguiente descripción de cambios:
 
-Enumera y agrupa los cambios por tipo (feat, fix, refactor, style, docs, test, chore, perf).
+Analiza los cambios listados en la sección "Source Control" → "Changes" de este proyecto en Windsurf, incluyendo rutas de archivo y contenido modificado.
 
-Si hay varios cambios de distintos tipos, crea un cuerpo descriptivo que resuma los cambios de forma clara, incluyendo mejoras, correcciones y refactorizaciones.
+Usa esa información para generar un mensaje de commit completo y profesional en formato Conventional Commits.
 
-Incluye una sección opcional de BREAKING CHANGES si algún cambio rompe compatibilidad.
-
-Sé conciso pero profesional; máximo 1 línea para el título y varias líneas para el cuerpo si es necesario.
+Instrucciones:
+1. Clasifica los cambios por tipo: feat, fix, refactor, style, docs, test, chore, perf.
+2. Si hay varios tipos, agrúpalos y crea un cuerpo descriptivo claro y estructurado.
+3. Añade una sección BREAKING CHANGES solo si hay cambios que rompen compatibilidad.
+4. El título debe ser de una sola línea, conciso y profesional.
+5. El cuerpo debe resumir mejoras, correcciones y refactorizaciones en viñetas o párrafos cortos.
+6. Usa un tono técnico y directo.
